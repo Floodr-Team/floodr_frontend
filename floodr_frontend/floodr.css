@@ -1,0 +1,22 @@
+#logo {
+    width: 30%;
+    height: 30%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#status {
+    width: 100%;
+    height: 75%;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    color: 0b9eff;
+    border-color: 0b9eff;
+    font-size: 2 em;
+}

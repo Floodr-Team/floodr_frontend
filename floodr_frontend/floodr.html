@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floodr - Der Flutschutz</title>
+        <link type="text/css" rel="stylesheet" href="floodr.css">
+    </head>
+    <body>
+        <img id="logo" src="floodr2.png" />
+        <div class="button"><button onclick="nice()">Reload</button></div>
+        <img id="status" src="FLOODRBACKGROUNDGOOD.png"/>
+        <script type="text/javascript">
+            function nice(){
+            var imageview = document.getElementById("status");
+            imageview.style.backgroundImage = "floodrbackgroundbad.png";
+            }
+        </script>
+    </body>
+</html>
