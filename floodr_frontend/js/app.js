@@ -16,8 +16,8 @@ window.onload =  function () {
                 } else {
                     imageview.src = "images/FLOODRBACKGROUNDGOOD.png";
                 }
-            } else {
-                imageview.src = "images/";
+            } else if (http.status != 200){
+                imageview.src = "images/FLOODRBACKGROUNDNOCONNECT.png";
             }
         };
         http.send(null);
